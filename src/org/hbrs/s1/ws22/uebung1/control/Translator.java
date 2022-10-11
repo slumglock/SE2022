@@ -1,5 +1,5 @@
 package org.hbrs.s1.ws22.uebung1.control;
-
+// lglock2s 9032124
 /**
  * Das Translator Interface. Die Anzahl der Methoden ist fix
  * und darf NICHT erweitert werden. Sichtbarkeiten der Methoden koennen
@@ -9,7 +9,7 @@ package org.hbrs.s1.ws22.uebung1.control;
  *
  */
 
-interface Translator {
+public interface Translator {
 	
 	double version = 1.0; // Version des Interface
 	
@@ -17,7 +17,7 @@ interface Translator {
 	 * Uebersetzt eine numerische Zahl in eine String-basierte
 	 * Repraesentation gemaess der Spezifikation in der Aufgabe 1-2 
 	 */
-	String translateNumber(int number);
+	public String translateNumber(int number);
 
 } 
 

@@ -1,5 +1,5 @@
 package org.hbrs.s1.ws22.uebung1.view;
-
+// lglock2s 9032124
 import org.hbrs.s1.ws22.uebung1.control.*;
 
 public class Client {

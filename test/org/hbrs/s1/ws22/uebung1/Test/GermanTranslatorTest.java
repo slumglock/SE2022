@@ -1,7 +1,6 @@
 package org.hbrs.s1.ws22.uebung1.Test;
-
+// lglock2s 9032124
 import static org.junit.jupiter.api.Assertions.*;
-import org.hbrs.s1.ws22.uebung1.*;
 import org.hbrs.s1.ws22.uebung1.control.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

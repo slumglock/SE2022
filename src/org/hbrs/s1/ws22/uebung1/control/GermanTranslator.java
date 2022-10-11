@@ -1,5 +1,5 @@
 package org.hbrs.s1.ws22.uebung1.control;
-
+// lglock2s 9032124
 public class GermanTranslator implements Translator {
 
 	public String date = "Okt/2022"; // Default-Wert
