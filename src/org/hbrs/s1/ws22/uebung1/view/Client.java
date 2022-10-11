@@ -14,7 +14,10 @@ public class Client {
 			//
 			// Strenge Implementierung gegen das Interface Translator gewuenscht!
 
-			Translator translator = Factory.createTranslator();
+
+			// Factory wird Verwendet - Referenz auf einen Translator wird
+			// von Client bezogen
+			Translator translator = Factory.createGermanTranslator();
 
 			System.out.println("Das Ergebnis der Berechnung: " +
 					"[das Ergebnis an dieser Stelle]"  );
