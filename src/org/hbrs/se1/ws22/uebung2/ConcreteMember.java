@@ -8,7 +8,7 @@ public class ConcreteMember  implements Member {
     private Integer id;
 
     //Erstellt Objekte von Member während der Laufzeit mit übergebener ID
-    public defMember(Integer id) {this.id = id;}
+    public ConcreteMember(Integer id) {this.id = id;}
 
     //Methoden aus dem Interface überschreiben
 
