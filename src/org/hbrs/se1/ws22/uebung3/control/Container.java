@@ -2,6 +2,7 @@ package org.hbrs.se1.ws22.uebung3.control;
 
 import org.hbrs.se1.ws22.uebung3.control.ContainerException;
 import org.hbrs.se1.ws22.uebung3.control.Member;
+import org.hbrs.se1.ws22.uebung3.persistence.PersistenceException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +27,23 @@ public class Container {
 
         instance = null;
     }
+
+    //Uebung3 CR2:
+
+    public void store() throws PersistenceException {
+
+    }
+
+    public void load() throws PersistenceException {
+
+    }
+    //Uebung 3 CR3:
+
+    public List<Member> getCurrentList(){
+        return aList;
+    }
+
+
 
     public List<Member> aList = new ArrayList<>();
 
