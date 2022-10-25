@@ -8,6 +8,25 @@ import java.util.List;
 
 public class Container {
 
+    // CR1: Nur 1 Container Objekt pro Laufzeit - Singleton Pattern
+    // Konstruktor Private um Zugriff und Objektbildung von Außen zu unterbinden
+
+    private static Container instance; //instance = null
+
+    private Container() {}
+
+    public static synchronized Container getInstance(){
+        if(instance == null) {
+            instance = new Container();
+        }
+        return instance;
+    }
+
+    public static void deleteInstance(){
+
+        instance = null;
+    }
+
     public List<Member> aList = new ArrayList<>();
 
     // Versucht Member hinzuzufuegen, falls ID bereits vorhanden wird ContainerException geworfen
